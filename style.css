@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand&display=swap');
+
+
 body {
     --main-bg: #eeeeee;
     --main-hd: #0F4C75;
     --main-tx: #1b262c;
     --secn-bg: #BBE1FA;
 
-    background: var(--main-bg)
+    background: var(--main-bg);
+    overflow-x: hidden;
+
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
@@ -72,8 +78,12 @@ footer>a>img {
 
 .nav-link:hover {
     border-radius: 3px;
-    color: var(--main-bg);
+    color: var(--main-bg) !important;
     background: var(--main-hd);
+}
+
+.navbar-toggler-icon {
+    color: black;
 }
 
 .hero {
